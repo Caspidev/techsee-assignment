@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 
-const ServerAddress = 'http://localhost:1337/';
+const ServerAddress = 'https://techsee-site.herokuapp.com/';
 
 
 export default class SMSSender extends Component {
