@@ -1,8 +1,8 @@
 {
-  "name": "react-website-basic-example",
+  "name": "techsee-assignment",
   "private": true,
   "version": "1.0.0",
-  "description": "`react-website` basic example",
+  "description": "techsee-assignment",
   "main": "src/index.js",
   "scripts": {
     "start": "parcel --no-cache src/index.html",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catamphetamine/react-website-basic-example.git"
+    "url": "git+https://github.com/Caspidev/techsee-assignment.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
     "example",
     "basic"
   ],
-  "author": "@OrCaspi",
+  "author": "@Caspidev",
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
