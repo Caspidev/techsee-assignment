@@ -45,8 +45,8 @@ export default class SMSSender extends Component {
 					console.log("ok");
 					alert('SMS was sent to +' + prefix + '-' + phone)
 			} catch (e) {
-					console.log(error);
-					alert(error)
+					console.log(e);
+					alert(e)
 			}
 		}
 			
@@ -74,12 +74,10 @@ export default class SMSSender extends Component {
 		  <form onSubmit={this.handleSubmit}>
 			<p>Please enter your phone number and prefix</p>
 	
-			{/* &nbsp;&nbsp;&nbsp; */}
 			<label className="Applabel">
 			  prefix
 			  
 			</label>
-			{/* &nbsp;&nbsp;&nbsp;&nbsp; */}
 			<label className="Applabel">
 			  phone number  
 			</label>
@@ -117,9 +115,9 @@ export default class SMSSender extends Component {
 		
 }
 
-function handleErrors(response) {
-	if (!response.ok) {
-			throw Error(response.statusText);
-	}
-	return response;
-}
+// function handleErrors(response) {
+// 	if (!response.ok) {
+// 			throw Error(response.statusText);
+// 	}
+// 	return response;
+// }
