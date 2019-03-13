@@ -1,2 +1,2 @@
-export { default as SMSSender } from './smssender'
-export { default as CameraApp } from './camera'
+export { default as SMSSender } from './SMSSender'
+export { default as CameraApp } from './Camera'
