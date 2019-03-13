@@ -20,12 +20,14 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
+    "autoprefixer": "^9.4.10",
     "parcel-bundler": "^1.12.1",
     "postcss-custom-properties": "^8.0.9",
     "postcss-nested": "^4.1.0",
     "react-hot-loader": "^4.2.0"
   },
   "scripts": {
+    "start": "parcel --no-cache src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
